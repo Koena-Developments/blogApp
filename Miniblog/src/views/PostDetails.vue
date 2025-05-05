@@ -11,7 +11,7 @@
   
   <script setup>
 import { useRoute } from 'vue-router'
-import { usePostStore } from '@/stores/postStore'
+import { usePostStore } from '../stores/postStore.js'
 import { computed } from 'vue'
 
 const route = useRoute()

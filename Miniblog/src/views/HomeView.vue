@@ -11,8 +11,8 @@
 </template>
 
 <script setup>
-import { usePostStore } from '@/stores/postStore'
-import PostCard from '@/components/PostCard.vue'
+import { usePostStore } from '../stores/postStore'
+import PostCard from '../components/PostCard.vue'
 
 const store = usePostStore()
 
